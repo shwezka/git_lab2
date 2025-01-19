@@ -1,10 +1,9 @@
 package org.example;
 
-
 import static org.example.InputA.inputA;
 import static org.example.InputB.inputB;
-
 import static org.example.Plus.plus;
+import static org.example.Mult.mult;
 
 public class Main {
 
@@ -16,5 +15,6 @@ public class Main {
         b = inputB();
         System.out.println(b);
         System.out.println(plus(1,3));
+        System.out.println(mult(2,5));
     }
 }
