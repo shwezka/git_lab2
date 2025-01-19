@@ -7,6 +7,8 @@ import static org.example.InputB.inputB;
 import static org.example.Plus.plus;
 import static org.example.Mult.mult;
 
+import static org.example.Div.div;
+
 public class Main {
     public static void main(String[] args) {
         int a;
@@ -18,5 +20,6 @@ public class Main {
         System.out.println(plus(1,3));
         System.out.println(mult(2,5));
         System.out.println(minus(1, 5));
+        System.out.println(div(6,2));
     }
 }
